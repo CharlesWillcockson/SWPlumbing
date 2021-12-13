@@ -1,3 +1,17 @@
-h1 {
-    color: blue;
+.logo{
+
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+    color: black;
+    padding: 8px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
 }
