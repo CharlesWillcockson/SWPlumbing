@@ -1,14 +1,20 @@
-.logo{
-
+ul li img{
+    height: 35px;
+}
+body {
+    background-color: #f9ebe0;
 }
 
 .navbar{
+    display: flex;
     list-style-type: none;
     margin: 0;
+    background-color: #60492c;
+    color: #208aae;
     padding: 0;
-    background-color: khaki;
-    color: black;
-    padding: 8px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
 }
 
 li {
