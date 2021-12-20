@@ -2,15 +2,15 @@ ul li img{
     height: 35px;
 }
 body {
-    background-color: #f9ebe0;
+    background-color: #ffe8d6;
 }
 
 .navbar{
     display: flex;
     list-style-type: none;
     margin: 0;
-    background-color: #60492c;
-    color: #208aae;
+    background-color: #a5a58d;
+    color: #60492c;
     padding: 0;
     justify-content: space-around;
     align-items: center;
@@ -25,15 +25,29 @@ h1 {
     font-size: 4em;
     display: flex;
     justify-content: space-around;
-    background-color: #60492c;
+    background-color: #a5a58d;
     border-radius: 30px;
-    margin: 20px 40px;color: #208aae;
-    box-shadow: 15px 10px 5px #208aae;
+    margin: 20px 40px;color: #60492c;
+    box-shadow: 15px 10px 5px #60492c;
 }
 
 h2{
     display: flex;
     justify-content: flex-start;
-    color: #208aae;
+    color: #60492c;
 
+}
+hr{
+    border: 5px solid #60492c;
+    border-radius: 20px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+}
+.pic img{
+    border-radius: 25px;
+    width: 65%;
 }
